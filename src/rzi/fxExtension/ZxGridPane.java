@@ -19,7 +19,7 @@ public class ZxGridPane extends GridPane {
 
     public TextField addLabelAndTextField(
             String label, TextField textField, int col, int row) {
-        add(new Label(label), col, row);
+        add(new Label(label+ " : "), col, row);
         add(textField, col + 1, row);
         return textField;
     }
